@@ -3,15 +3,15 @@ Tired of searching for a good website to convert the ofx files I get every month
 The current encoding is iso-8859-1 (brazilian banks default) but you can change to the desired one directly in the code.
 
 to run it create your virtual environment and install Ofx parser
-'''
+```
 python -m venv .venv
 pip install ofxparser
-'''
+```
 
 then just run the program along the filename
-'''
+```
 python ofx2csv.py file.py
-'''
+```
 
 
 
